@@ -65,6 +65,24 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.header {
+	border: 1px solid red;
+	display: flex;
+
+}
+
+.navbar {
+	/* border: 1px solid red; */
+
+}
+
+.navbutton {
+	color: lightgrey;
+	text-decoration: none;
+	margin: 15px;
+	font-size: 12px;
+}
+
 .logo {
 
 }
@@ -107,4 +125,8 @@ mid-bot-mid {
 
 mid-bot-right {
 	
+}
+
+.contact {
+
 }
