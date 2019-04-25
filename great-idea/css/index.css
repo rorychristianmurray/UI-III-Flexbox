@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-	width: 900px;
-	margin: 50px;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 .header {
@@ -151,6 +151,7 @@ p {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid black;
+	padding-top: 25px;
 	padding-bottom: 25px;
 
 }
@@ -168,5 +169,15 @@ mid-bot-right {
 }
 
 .addressline {
-	color: red;
+	margin-top: 20px;
+}
+
+.emailline {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
 }
