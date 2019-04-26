@@ -70,114 +70,55 @@ body {
 	margin: 0 auto;
 }
 
-.header {
-	display: flex;
-	width: 900px;
-	justify-content: space-between;
-
-}
-
-.navbar {
-	/* border: 1px solid red; */
-
-}
-
-.navbutton {
-	color: lightgrey;
-	text-decoration: none;
-	margin: 15px;
-	font-size: 12px;
-}
-
-.logo {
-
-}
-
-.top {
-	display: flex;
-	border-bottom: 1px solid black;
-	justify-content: space-between;
-	margin-top: 25px;
-
-}
-
-.top-left {
-	font-size: 75px;
-	text-align: center;
-
-}
-
-.innoheader {
-	margin-left: 70px;
-	
-}
-
-button {
-	background: white;
-}
-
-.top-right {
-	margin-bottom: 50px;
-
-}
-
 p {
 	font-size: 15px;
 	line-height: 1.25;
 }
 
-.mid-top-all {
-	display: flex;
-	margin-top: 25px;
-	margin-bottom: 25px;
-
+.topbar {
+    border: 1px solid red;
+    display: flex;
+	width: 800px;
+    justify-content: space-between;
 }
 
-
-.mid-top-left {
-
+.navbuttons {
+    color: lightgrey;
+	text-decoration: none;
+	margin: 15px;
+	font-size: 12px;
 }
 
-.mid-top-right {
-
+.services-header-img {
+    border: 1px solid fuchsia;
+    margin-top: 20px;
+    width: 800px;
 }
 
-.middle-img {
-	width: 900px;
-
+.offer {
+    border: 1px solid dodgerblue;
+    margin: 20px 0;
 }
 
-.mid-bot-all {
-	display: flex;
-	justify-content: space-between;
-	border-bottom: 1px solid black;
-	padding-top: 25px;
-	padding-bottom: 25px;
-
+.offerheader {
+    color: red;
 }
 
-mid-bot-mid {
-	
+/* .totaltypes {
+    border: 1px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.offertypes-1 {
+    border: 1px solid dodgerblue;
+    display: flex;
 }
 
-mid-bot-right {
-	
+.offertypes-2 {
+    border: 1px solid dodgerblue;
 }
 
-.contact {
-	margin-top: 25px;
-}
-
-.addressline {
-	margin-top: 20px;
-}
-
-.emailline {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-footer {
-	display: flex;
-	justify-content: center;
+.offertypes-3 {
+    border: 1px solid dodgerblue;
 }
